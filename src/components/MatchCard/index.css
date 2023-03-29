@@ -1,0 +1,38 @@
+.recent-match-container {
+  display: flex;
+  max-width: 50%;
+  padding: 10px;
+  flex-grow: 1;
+}
+.recent-match {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e293b;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  width: 100%;
+}
+.recent-heading {
+  margin-top: auto;
+  font-size: 20px;
+  font-weight: 400;
+}
+.recent-para {
+  font-size: 12px;
+  font-weight: 400;
+}
+.won {
+  color: #18ed66;
+}
+.lost {
+  color: #e31a1a;
+}
+@media all and (min-width: 768px) {
+  .recent-match-container {
+    width: 33%;
+    max-width: 33%;
+    flex-grow: 1;
+  }
+}

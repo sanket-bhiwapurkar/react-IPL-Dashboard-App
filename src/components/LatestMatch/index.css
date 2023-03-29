@@ -1,0 +1,32 @@
+.latest-match-heading {
+  font-size: 15px;
+  font-weight: 500;
+}
+.latest-match-card {
+  background-color: #1e293b;
+  border-radius: 16px;
+  margin: 0px 10px;
+}
+.match-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px;
+}
+.card-headings {
+  font-size: 20px;
+  font-weight: 400;
+}
+.card-para {
+  font-size: 12px;
+}
+.competing-team-logo {
+  width: 80px;
+}
+.match-details {
+  padding: 16px;
+}
+.card-sub-headings {
+  font-size: 13px;
+  font-weight: 400;
+}
